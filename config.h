@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "tewi:pixelsize=10:antialias=true:autohint=true";
+static char *font = "envypn:pixelsize=10:antialias=true:autohint=true";
 static int borderpx = 10;
 
 /*
@@ -193,7 +193,7 @@ static MouseShortcut mshortcuts[] = {
 };
 
 /* Internal keyboard shortcuts. */
-define MODKEY Mod1Mask
+#define MODKEY Mod1Mask
 
 MouseKey mkeys[] = {
 	/* button               mask            function        argument */
